@@ -6,3 +6,12 @@
 6. I terminal: `docker run <Navn på container>`
 7. Kør test i docker: `docker run <Navn på container> pytest`
 8. I PyCharm i VCS, lav projekt om til Git
+9. Lav .gitignore fil (Denne tekst skal være i hver git pr
+10. Commit (Ude til venstre alle filer der skal commites)
+11. For at pushe brug følgende i terminalen:
+```
+git branch -M main
+git remote add origin https://github.com/Champen/pipelineOpg.git
+git push -u origin main
+```
+12. Github Actions --> Workflow (Publish Docker Container, set up this workflow) --> PyCharm pull
