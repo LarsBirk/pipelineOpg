@@ -16,3 +16,4 @@ git push -u origin main
 ```
 12. Github Actions --> Workflow (Publish Docker Container, set up this workflow) --> PyCharm pull
 13. Ved problemer med push skriv  `git push` i terminalen
+14. Vis til gruppe
