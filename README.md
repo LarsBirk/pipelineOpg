@@ -14,6 +14,12 @@ git branch -M main
 git remote add origin https://github.com/Champen/pipelineOpg.git
 git push -u origin main
 ```
+(Hvis det skal pushes fra et workspace til et andet workspace brug følgende):
+```
+git remote set-url origin <url-of-new-repo>
+git push -u origin master
+```
+
 12. Github Actions --> Workflow (Publish Docker Container, set up this workflow) --> PyCharm pull
 13. Ved problemer med push skriv  `git push` i terminalen
 14. Vis til gruppe
